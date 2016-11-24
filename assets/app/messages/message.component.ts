@@ -1,10 +1,33 @@
-import { Component } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
+
+import { Message } from './message.model';
 
 @Component({
   selector: 'app-message',
-  templateUrl: './message.component.html'
+  templateUrl: './message.component.html',
+  styles: [`
+    .author {
+      display: inline-block;
+      font-style: italic;
+      font-size: 12px;
+      width: 80%;
+    }
+    .config {
+      display: inline-block;
+      text-align: right;
+      font-size: 12px;
+      width: 19%;
+    }
+  `]
 })
 
 export class MessageComponent {
+  @Input('inputMessage') message: Message; //using input message as alias in app.component
+  @Output() editClicked = new EventEmitter<string>(); //event emiter, generic class with multiple Types
 
+  color = 'red';
+
+  onEdit() {
+    this.editClicked.emit('A new value')
+  }
 }
