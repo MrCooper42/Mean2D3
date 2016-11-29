@@ -12,7 +12,7 @@ export var AuthService = (function () {
         var _this = this;
         var body = JSON.stringify(user);
         var headers = new Headers({ 'Content-Type': 'application/json' });
-        return this.http.post(' Sample-env.kpyf26fh6c.us-east-1.elasticbeanstalk.com/user', body, { headers: headers })
+        return this.http.post('https://Sample-env.kpyf26fh6c.us-east-1.elasticbeanstalk.com/user', body, { headers: headers })
             .map(function (response) { return response.json(); })
             .catch(function (error) {
             _this.errorService.handleError(error.json());
@@ -23,7 +23,7 @@ export var AuthService = (function () {
         var _this = this;
         var body = JSON.stringify(user);
         var headers = new Headers({ 'Content-Type': 'application/json' });
-        return this.http.post(' Sample-env.kpyf26fh6c.us-east-1.elasticbeanstalk.com/user/signin', body, { headers: headers })
+        return this.http.post('https://Sample-env.kpyf26fh6c.us-east-1.elasticbeanstalk.com/user/signin', body, { headers: headers })
             .map(function (response) { return response.json(); })
             .catch(function (error) {
             _this.errorService.handleError(error.json());
