@@ -44,7 +44,7 @@ router.post('/signin', (req, res, next) => {
             return res.status(500).json({
                 title: 'Login failed',
                 error: {
-                    meesage: 'Invalid login credentials'
+                    message: 'Invalid login credentials'
                 }
             });
         }
@@ -52,7 +52,7 @@ router.post('/signin', (req, res, next) => {
             return res.status(500).json({
                 title: 'Login failed',
                 error: {
-                    meesage: 'Invalid login credentials'
+                    message: 'Invalid login credentials'
                 }
             });
         }
