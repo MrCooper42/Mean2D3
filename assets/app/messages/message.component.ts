@@ -4,9 +4,9 @@ import { Message } from './message.model';
 import { MessageService } from './message.service'
 
 @Component({
-  selector: 'app-message',
-  templateUrl: './message.component.html',
-  styles: [`
+    selector: 'app-message',
+    templateUrl: './message.component.html',
+    styles: [`
     .author {
       display: inline-block;
       font-style: italic;
@@ -23,24 +23,24 @@ import { MessageService } from './message.service'
 })
 
 export class MessageComponent {
-  @Input('inputMessage') message: Message; //using input message as alias in app.component
+    @Input('inputMessage') message: Message; //using input message as alias in app.component
 
-  color = 'red';
+    color = 'red';
 
-  constructor(private messageService: MessageService) {}
+    constructor(private messageService: MessageService) { }
 
-  onEdit() {
-    this.messageService.editMessage(this.message);
-  }
+    onEdit() {
+        this.messageService.editMessage(this.message);
+    }
 
-  onDelete() {
-    this.messageService.deleteMessage(this.message)
-      .subscribe(
-        result => console.log(result, 'deleted result')
-      );
-  }
+    onDelete() {
+        this.messageService.deleteMessage(this.message)
+            .subscribe(
+            result => console.log(result, 'deleted result')
+            );
+    }
 
-  belongsToUser() {
-  return localStorage.getItem('userId') == this.message.userId;
-  }
+    belongsToUser() {
+        return localStorage.getItem('userId') == this.message.userId;
+    }
 }
