@@ -13,7 +13,7 @@ const userRoutes = require('./routes/user');
 const messageRoutes = require('./routes/messages');
 
 const app = express();
-mongoose.connect(`${process.env.user}:${password}@ds113678.mlab.com:13678/angular2-deployment`);
+mongoose.connect(`${process.env.user}:${process.env.password}@ds113678.mlab.com:13678/angular2-deployment`);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
