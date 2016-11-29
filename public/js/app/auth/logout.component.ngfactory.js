@@ -87,7 +87,7 @@ var _View_LogoutComponent0 = (function (_super) {
 }(import1.AppView));
 export function viewFactory_LogoutComponent0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_LogoutComponent === null)) {
-        (renderType_LogoutComponent = viewUtils.createRenderComponentType('C:/Users/Tippy/Desktop/Projects/MEAN2D3/assets/app/auth/logout.component.ts class LogoutComponent - inline template', 0, import10.ViewEncapsulation.None, styles_LogoutComponent, {}));
+        (renderType_LogoutComponent = viewUtils.createRenderComponentType('C:/Users/Tippy/Desktop/Projects/Mean2D3/assets/app/auth/logout.component.ts class LogoutComponent - inline template', 0, import10.ViewEncapsulation.None, styles_LogoutComponent, {}));
     }
     return new _View_LogoutComponent0(viewUtils, parentInjector, declarationEl);
 }

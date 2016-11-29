@@ -349,6 +349,6 @@ class _View_MessageInputComponent0 extends import1.AppView<import3.MessageInputC
   }
 }
 export function viewFactory_MessageInputComponent0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.MessageInputComponent> {
-  if ((renderType_MessageInputComponent === (null as any))) { (renderType_MessageInputComponent = viewUtils.createRenderComponentType('C:/Users/Tippy/Desktop/Projects/MEAN2D3/assets/app/messages/message-input.component.html',0,import9.ViewEncapsulation.None,styles_MessageInputComponent,{})); }
+  if ((renderType_MessageInputComponent === (null as any))) { (renderType_MessageInputComponent = viewUtils.createRenderComponentType('C:/Users/Tippy/Desktop/Projects/Mean2D3/assets/app/messages/message-input.component.html',0,import9.ViewEncapsulation.None,styles_MessageInputComponent,{})); }
   return new _View_MessageInputComponent0(viewUtils,parentInjector,declarationEl);
 }

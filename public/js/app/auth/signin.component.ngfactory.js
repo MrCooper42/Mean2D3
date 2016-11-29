@@ -417,7 +417,7 @@ var _View_SigninComponent0 = (function (_super) {
 }(import1.AppView));
 export function viewFactory_SigninComponent0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_SigninComponent === null)) {
-        (renderType_SigninComponent = viewUtils.createRenderComponentType('C:/Users/Tippy/Desktop/Projects/MEAN2D3/assets/app/auth/signin.component.html', 0, import10.ViewEncapsulation.None, styles_SigninComponent, {}));
+        (renderType_SigninComponent = viewUtils.createRenderComponentType('C:/Users/Tippy/Desktop/Projects/Mean2D3/assets/app/auth/signin.component.html', 0, import10.ViewEncapsulation.None, styles_SigninComponent, {}));
     }
     return new _View_SigninComponent0(viewUtils, parentInjector, declarationEl);
 }

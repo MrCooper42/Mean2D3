@@ -128,6 +128,6 @@ class _View_MessagesComponent0 extends import1.AppView<import3.MessagesComponent
   }
 }
 export function viewFactory_MessagesComponent0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.MessagesComponent> {
-  if ((renderType_MessagesComponent === (null as any))) { (renderType_MessagesComponent = viewUtils.createRenderComponentType('C:/Users/Tippy/Desktop/Projects/MEAN2D3/assets/app/messages/messages.component.ts class MessagesComponent - inline template',0,import8.ViewEncapsulation.None,styles_MessagesComponent,{})); }
+  if ((renderType_MessagesComponent === (null as any))) { (renderType_MessagesComponent = viewUtils.createRenderComponentType('C:/Users/Tippy/Desktop/Projects/Mean2D3/assets/app/messages/messages.component.ts class MessagesComponent - inline template',0,import8.ViewEncapsulation.None,styles_MessagesComponent,{})); }
   return new _View_MessagesComponent0(viewUtils,parentInjector,declarationEl);
 }

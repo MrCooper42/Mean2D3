@@ -264,7 +264,7 @@ var _View_HeaderComponent0 = (function (_super) {
 }(import1.AppView));
 export function viewFactory_HeaderComponent0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_HeaderComponent === null)) {
-        (renderType_HeaderComponent = viewUtils.createRenderComponentType('C:/Users/Tippy/Desktop/Projects/MEAN2D3/assets/app/shared/header.component.ts class HeaderComponent - inline template', 0, import8.ViewEncapsulation.None, styles_HeaderComponent, {}));
+        (renderType_HeaderComponent = viewUtils.createRenderComponentType('C:/Users/Tippy/Desktop/Projects/Mean2D3/assets/app/shared/header.component.ts class HeaderComponent - inline template', 0, import8.ViewEncapsulation.None, styles_HeaderComponent, {}));
     }
     return new _View_HeaderComponent0(viewUtils, parentInjector, declarationEl);
 }

@@ -337,7 +337,7 @@ var _View_MessageInputComponent0 = (function (_super) {
 }(import1.AppView));
 export function viewFactory_MessageInputComponent0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_MessageInputComponent === null)) {
-        (renderType_MessageInputComponent = viewUtils.createRenderComponentType('C:/Users/Tippy/Desktop/Projects/MEAN2D3/assets/app/messages/message-input.component.html', 0, import9.ViewEncapsulation.None, styles_MessageInputComponent, {}));
+        (renderType_MessageInputComponent = viewUtils.createRenderComponentType('C:/Users/Tippy/Desktop/Projects/Mean2D3/assets/app/messages/message-input.component.html', 0, import9.ViewEncapsulation.None, styles_MessageInputComponent, {}));
     }
     return new _View_MessageInputComponent0(viewUtils, parentInjector, declarationEl);
 }

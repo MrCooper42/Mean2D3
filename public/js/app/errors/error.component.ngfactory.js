@@ -229,7 +229,7 @@ var _View_ErrorComponent0 = (function (_super) {
 }(import1.AppView));
 export function viewFactory_ErrorComponent0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_ErrorComponent === null)) {
-        (renderType_ErrorComponent = viewUtils.createRenderComponentType('C:/Users/Tippy/Desktop/Projects/MEAN2D3/assets/app/errors/error.component.html', 0, import9.ViewEncapsulation.Emulated, styles_ErrorComponent, {}));
+        (renderType_ErrorComponent = viewUtils.createRenderComponentType('C:/Users/Tippy/Desktop/Projects/Mean2D3/assets/app/errors/error.component.html', 0, import9.ViewEncapsulation.Emulated, styles_ErrorComponent, {}));
     }
     return new _View_ErrorComponent0(viewUtils, parentInjector, declarationEl);
 }

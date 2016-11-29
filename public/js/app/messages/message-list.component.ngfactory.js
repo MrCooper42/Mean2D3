@@ -126,7 +126,7 @@ var _View_MessageListComponent0 = (function (_super) {
 }(import1.AppView));
 export function viewFactory_MessageListComponent0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_MessageListComponent === null)) {
-        (renderType_MessageListComponent = viewUtils.createRenderComponentType('C:/Users/Tippy/Desktop/Projects/MEAN2D3/assets/app/messages/message-list.component.ts class MessageListComponent - inline template', 0, import9.ViewEncapsulation.None, styles_MessageListComponent, {}));
+        (renderType_MessageListComponent = viewUtils.createRenderComponentType('C:/Users/Tippy/Desktop/Projects/Mean2D3/assets/app/messages/message-list.component.ts class MessageListComponent - inline template', 0, import9.ViewEncapsulation.None, styles_MessageListComponent, {}));
     }
     return new _View_MessageListComponent0(viewUtils, parentInjector, declarationEl);
 }

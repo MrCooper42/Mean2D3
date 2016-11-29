@@ -125,7 +125,7 @@ var _View_MessagesComponent0 = (function (_super) {
 }(import1.AppView));
 export function viewFactory_MessagesComponent0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_MessagesComponent === null)) {
-        (renderType_MessagesComponent = viewUtils.createRenderComponentType('C:/Users/Tippy/Desktop/Projects/MEAN2D3/assets/app/messages/messages.component.ts class MessagesComponent - inline template', 0, import8.ViewEncapsulation.None, styles_MessagesComponent, {}));
+        (renderType_MessagesComponent = viewUtils.createRenderComponentType('C:/Users/Tippy/Desktop/Projects/Mean2D3/assets/app/messages/messages.component.ts class MessagesComponent - inline template', 0, import8.ViewEncapsulation.None, styles_MessagesComponent, {}));
     }
     return new _View_MessagesComponent0(viewUtils, parentInjector, declarationEl);
 }

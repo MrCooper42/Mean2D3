@@ -630,7 +630,7 @@ var _View_SignupComponent0 = (function (_super) {
 }(import1.AppView));
 export function viewFactory_SignupComponent0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_SignupComponent === null)) {
-        (renderType_SignupComponent = viewUtils.createRenderComponentType('C:/Users/Tippy/Desktop/Projects/MEAN2D3/assets/app/auth/signup.component.html', 0, import9.ViewEncapsulation.None, styles_SignupComponent, {}));
+        (renderType_SignupComponent = viewUtils.createRenderComponentType('C:/Users/Tippy/Desktop/Projects/Mean2D3/assets/app/auth/signup.component.html', 0, import9.ViewEncapsulation.None, styles_SignupComponent, {}));
     }
     return new _View_SignupComponent0(viewUtils, parentInjector, declarationEl);
 }

@@ -245,7 +245,7 @@ var _View_AuthenticationComponent0 = (function (_super) {
 }(import1.AppView));
 export function viewFactory_AuthenticationComponent0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_AuthenticationComponent === null)) {
-        (renderType_AuthenticationComponent = viewUtils.createRenderComponentType('C:/Users/Tippy/Desktop/Projects/MEAN2D3/assets/app/auth/authentication.component.ts class AuthenticationComponent - inline template', 0, import9.ViewEncapsulation.None, styles_AuthenticationComponent, {}));
+        (renderType_AuthenticationComponent = viewUtils.createRenderComponentType('C:/Users/Tippy/Desktop/Projects/Mean2D3/assets/app/auth/authentication.component.ts class AuthenticationComponent - inline template', 0, import9.ViewEncapsulation.None, styles_AuthenticationComponent, {}));
     }
     return new _View_AuthenticationComponent0(viewUtils, parentInjector, declarationEl);
 }
