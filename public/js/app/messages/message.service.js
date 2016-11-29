@@ -17,7 +17,7 @@ export var MessageService = (function () {
         var headers = new Headers({ 'Content-Type': 'application/json' });
         var token = localStorage.getItem('token')
             ? "?token=" + localStorage.getItem('token') : '';
-        return this.http.post("https://angular2-deploying.herokuapp.com/message" + token, body, { headers: headers })
+        return this.http.post(" Sample-env.kpyf26fh6c.us-east-1.elasticbeanstalk.com/message" + token, body, { headers: headers })
             .map(function (response) {
             var result = response.json();
             var message = new Message(result.obj.content, result.obj.user.firstName, result.obj._id, result.obj.user._id);
@@ -31,7 +31,7 @@ export var MessageService = (function () {
     };
     MessageService.prototype.getMessages = function () {
         var _this = this;
-        return this.http.get('https://angular2-deploying.herokuapp.com/message')
+        return this.http.get(' Sample-env.kpyf26fh6c.us-east-1.elasticbeanstalk.com/message')
             .map(function (response) {
             var messages = response.json().messages;
             var transformedMessages = [];
@@ -56,7 +56,7 @@ export var MessageService = (function () {
         var headers = new Headers({ 'Content-Type': 'application/json' });
         var token = localStorage.getItem('token')
             ? "?token=" + localStorage.getItem('token') : '';
-        return this.http.patch("https://angular2-deploying.herokuapp.com/message/" + (message.messageId + token), body, { headers: headers })
+        return this.http.patch(" Sample-env.kpyf26fh6c.us-east-1.elasticbeanstalk.com/message/" + (message.messageId + token), body, { headers: headers })
             .map(function (response) { return response.json(); })
             .catch(function (error) {
             _this.errorService.handleError(error.json());
@@ -68,7 +68,7 @@ export var MessageService = (function () {
         this.messages.splice(this.messages.indexOf(message), 1);
         var token = localStorage.getItem('token')
             ? "?token=" + localStorage.getItem('token') : '';
-        return this.http.delete("https://angular2-deploying.herokuapp.com/message/" + (message.messageId + token))
+        return this.http.delete(" Sample-env.kpyf26fh6c.us-east-1.elasticbeanstalk.com/message/" + (message.messageId + token))
             .map(function (response) { return response.json(); })
             .catch(function (error) {
             _this.errorService.handleError(error.json());
