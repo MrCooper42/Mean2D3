@@ -13,6 +13,7 @@ const userRoutes = require('./routes/user');
 const messageRoutes = require('./routes/messages');
 
 const app = express();
+// add in your local for dev
 mongoose.connect(`${process.env.user}:${process.env.password}@ds113678.mlab.com:13678/angular2-deployment`);
 
 // view engine setup
